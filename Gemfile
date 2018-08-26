@@ -59,3 +59,7 @@ gem 'rakuten_web_service' , '1.5.0'
 gem 'dotenv-rails'
 
 gem 'rakuten_web_service' , '1.5.0'
+
+group :production do
+  gem 'pg', '0.21.0'
+end
